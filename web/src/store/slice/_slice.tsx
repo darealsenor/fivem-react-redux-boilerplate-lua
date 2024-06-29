@@ -9,7 +9,7 @@ const stateSlice = createSlice({
   name: "state",
   initialState,
   reducers: {
-    SetName: (state: any, action: <PayloadAction>) => {
+    SetName: (state: any, action: any) => {
       state.name = action.payload;
     },
   },
